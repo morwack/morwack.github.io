@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preprints – Morgan Wack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav" id="mainNav">
+        <div class="nav-inner">
+            <a href="index.html" class="nav-brand">MORGAN WACK</a>
+            <div class="nav-links">
+                
+                <a href="index.html" class="nav-link ">HOME</a>
+                
+                <a href="research.html" class="nav-link ">RESEARCH</a>
+                
+                <a href="preprints.html" class="nav-link active">PREPRINTS</a>
+                
+                <a href="news.html" class="nav-link ">NEWS & MEDIA</a>
+                
+                <a href="extracurriculars.html" class="nav-link ">EXTRACURRICULARS</a>
+                
+                <a href="cv.html" class="nav-link ">CV & CONTACT</a>
+                
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    
+<div class="page-content">
+    <div class="container">
+        <h1 class="page-title">Preprints</h1>
+        <hr class="page-divider">
+
+        
+        <div class="preprint-entry">
+            <h3 class="preprint-title">
+                <a href="https://arxiv.org/abs/2604.03684" target="_blank">Researchers Waste 80% of LLM Annotation Costs by Classifying One Text at a Time</a>
+            </h3>
+            <p class="preprint-authors"><em>with Pipal, C., Vogel, E.-M., Esser, F.</em></p>
+            <p class="preprint-status"><strong><em>Under Review</em></strong></p>
+            
+            <p class="preprint-abstract">Large language models (LLMs) are increasingly being used for text classification across the social sciences, yet researchers overwhelmingly classify one text per variable per prompt. Coding 100,000 texts on four variables requires 400,000 API calls. Batching 25 items and stacking all variables into a single prompt reduces this to 4,000 calls, cutting token costs by over 80%. Whether this degrades coding quality is unknown. We tested eight production LLMs from four providers on 3,962 expert-coded tweets across four tasks, varying batch size from 1 to 1,000 items and stacking up to 25 coding dimensions per prompt. Six of eight models maintained accuracy within 2 pp of the single-item baseline through batch sizes of 100. Variable stacking with up to 10 dimensions produced results comparable to single-variable coding, with degradation driven by task complexity rather than prompt length. Within this safe operating range, the measurement error from batching and stacking is smaller than typical inter-coder disagreement in the ground-truth data.</p>
+            
+        </div>
+        
+        <div class="preprint-entry">
+            <h3 class="preprint-title">
+                <a href="https://osf.io/preprints/socarxiv/nrs5z" target="_blank">Fact-Checks Can Help Inoculate LLMs Against Disinformation</a>
+            </h3>
+            <p class="preprint-authors"><em>with Vogel, E.-M., Pipal, C., Warren, P.</em></p>
+            <p class="preprint-status"><strong><em>Under Review</em></strong></p>
+            
+            <p class="preprint-abstract">Large language models (LLMs) have become the first source millions consult when evaluating political claims, yet they were trained on an open internet that state-sponsored disinformation operations have been designed to pollute. We audit four frontier models across 2,268 responses to 63 fabrications from eight documented influence operations and find that even a single published fact-check can shift a model from hedging about a fabrication to rejecting it outright. Overall, models correctly rejected only 81% of fabrications while repeating disinformation in 3% of cases. Critically, the remaining 16% of responses would have left users unable to determine whether an fabricated claims were true or false. Fact-checks may present an avenue for addressing this vulnerability. Narratives which had been debunked by at least one IFCN certified fact-checking organization were correctly rejected as disinformation 93% of the time compared to just 76% of the time for unchecked narratives. Exploratory analyses suggest that this mechanism operates through training data, with models echoing the specific vocabulary of published corrections when available during their training windows. We conclude by discussing how fact-checks designed for human audiences appear to serve as effective protection for LLMs, converting both model uncertainty and outright disinformation into definitive rejections.</p>
+            
+        </div>
+        
+        <div class="preprint-entry">
+            <h3 class="preprint-title">
+                <a href="https://osf.io/preprints/socarxiv/vzxd6" target="_blank">AI Can Correct but Not Convince: Epistemic Authority and Emotionalized Communication in TikTok Health Misinformation Corrections</a>
+            </h3>
+            <p class="preprint-authors"><em>with Blessing, J.N., Mahl, D.</em></p>
+            <p class="preprint-status"><strong><em>Under Review</em></strong></p>
+            
+            <p class="preprint-abstract">Short-form video platforms such as TikTok have developed captive audiences vulnerable to the spread of online health misinformation, creating demand for scalable video-based correction strategies. However, little is known about how communicator characteristics and message style jointly shape the effectiveness of debunking videos. Drawing on epistemic trustworthiness and source credibility theory, this study examines whether communicator type (scientist vs. influencer), communicator appearance (human vs. AI), and communication style (neutral vs. emotionalized) influence the efficacy of TikTok-style debunking videos addressing common health misinformation. In a pre-registered experiment (N = 996), participants viewed a misinformation video followed by one of sixteen debunking videos or no correction (control). We assessed perceived accuracy of the misinformation, epistemic trustworthiness of the communicator, credibility of the debunking content, and sharing intentions. Both human and AI-generated debunking videos significantly reduced belief in misinformation relative to control (~25% reduction), with no significant difference between them. However, human communicators were rated as more credible and trustworthy across all dimensions and elicited stronger sharing intentions among participants than AI-generated communicators. This disadvantage for AI was moderated by individual differences, with participants high in deference toward AI showing no additional preference for human communicators. Communicator type and communication style had no effect on the outcomes. These findings reveal a dissociation between belief change and source evaluation: AI-generated corrections may scale and be functionally effective, but deficits in perceived trustworthiness and sharing intentions may limit their diffusion on social media platforms.</p>
+            
+        </div>
+        
+        <div class="preprint-entry">
+            <h3 class="preprint-title">
+                <a href="https://arxiv.org/abs/2603.11120" target="_blank">The Laziness of the Crowd: Effort Aversion Among Raters Risks Undermining the Efficacy of X's Community Notes Program</a>
+            </h3>
+            <p class="preprint-authors"><em>with Warren, P., Alam, M.</em></p>
+            <p class="preprint-status"><strong><em>Under Review</em></strong></p>
+            
+            <p class="preprint-abstract">Crowdsourced moderation systems like Twitter/X's Community Notes program have been proposed as scalable alternatives to professional fact-checkers for combating online misinformation. While prior research has examined the effectiveness of such systems in reducing engagement with false content and their vulnerability to partisan bias, we identify a previously untested mechanism linking fact-check difficulty to systematic non-participation by crowdsourced raters. We hypothesize that claims requiring less cognitive effort to evaluate, specifically, those that are obviously false and easy to refute, are more likely to receive public notes than claims that are more plausible and require greater effort to debunk. Using eighteen months of vaccine-related Community Notes data (2,250 posts) and ratings from 382 survey participants, we show that claims perceived as more difficult to fact-check are significantly less likely to receive notes that achieve "helpful"/public status. Following the conduct of additional analyses and a fact-checking process utilizing an LLM pipeline to help rule out alternative explanations, we interpret this pattern as consistent with an unwillingness among raters to invest the mental effort required to evaluate and rate notes for more plausible misinformation. These findings suggest that crowdsourced moderation may systematically fail to address the forms of plausible misinformation which are most likely to deceive. We discuss implications for platform design and propose mechanisms to mitigate this difficulty penalty in crowdsourced content moderation systems.</p>
+            
+        </div>
+        
+        <div class="preprint-entry">
+            <h3 class="preprint-title">
+                <a href="https://osf.io/preprints/socarxiv/sek9h" target="_blank">Fact-checking Efforts Face Significant Practical Barriers</a>
+            </h3>
+            <p class="preprint-authors"><em>with Duskin, K., Hodel, D.</em></p>
+            <p class="preprint-status"><strong><em>R&R</em></strong></p>
+            
+            <p class="preprint-abstract">Fact-checking has been promoted as a key method for combating political misinformation. Comparing the spread of election-related misinformation narratives along with their relevant political fact-checks, this study provides the most comprehensive assessment to date of the real-world limitations faced by political fact-checking efforts. To examine barriers to impact, this study extends recent work from laboratory and experimental settings to the wider online information ecosystem present during the 2022 U.S. midterm elections. From analyses conducted within this context, we find that fact-checks as currently developed and distributed are severely inhibited in election contexts by constraints on their i. coverage, ii. speed, and, iii. reach. Specifically, we provide evidence that fewer than half of all prominent election-related misinformation narratives were fact-checked. Within the subset of fact-checked claims, we find that the median fact-check was released a full four days after the initial appearance of a narrative. Using network analysis to estimate user partisanship and dynamics of information spread, we additionally find evidence that fact-checks make up less than 1.2% of narrative conversations and that even when shared, fact-checks are nearly always shared within, rather than between, partisan communities. Furthermore, we provide empirical evidence which runs contrary to the assumption that misinformation moderation is politically biased against the political right. In full, through this assessment of the real-world influence of political fact-checking efforts, our findings underscore how limitations in coverage, speed, and reach necessitate further examination of the potential use of fact-checks as the primary method for combating the spread of political misinformation.</p>
+            
+        </div>
+        
+        <div class="preprint-entry">
+            <h3 class="preprint-title">
+                <a href="https://arxiv.org/abs/2412.13280" target="_blank">A collaborative digital field study shows how community-led interventions can minimize engagement with election falsehoods</a>
+            </h3>
+            
+            <p class="preprint-status"><strong><em>Under Review. ICA 2026 Paper Award Winner.</em></strong></p>
+            
+            <p class="preprint-abstract">False information can erode democratic legitimacy and incite violence. Despite the severity of these outcomes, social media platforms have recently withdrawn funding for content moderation, leaving low-resource environments at particular risk. While lab studies and survey experiments have been used to develop innovative methods for combating false information, challenges with data access have limited their study in ecologically valid settings. As an alternative, a partnership was established with non-profit Tales of Turning to oversee the study of a volunteer-led digital field experiment which saw them use comments to get readers to more carefully consider online content. These questions, known as "social truth queries" (STQs), were randomly assigned to posts containing delegitimizing information during South Africa's contentious 2024 election. Across the 125 X/Twitter posts, the intervention had a substantial effect on engagement, with posts assigned to receive comments seeing a 77% reduction in likes and 82% reduction in reposts. Critically, the effect of the intervention was dependent on its timing, with the impact largest when STQs were applied quickly. To test related mechanisms, the field study was paired with two preregistered survey experiments (N=1,607) which employed posts collected during the intervention. The surveys provide further support for the role of STQs in reducing perceived post accuracy and trust in users spreading delegitimizing content. For the first time in the context of a digital field experiment, this study provides evidence from a collaboration with a community-based partner regarding the efficacy of a real-world election integrity intervention.</p>
+            
+        </div>
+        
+        <div class="preprint-entry">
+            <h3 class="preprint-title">
+                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5717943" target="_blank">Beyond Deception: A New Typology of Political Deepfakes</a>
+            </h3>
+            <p class="preprint-authors"><em>with Walker, C.*, Birrer, A.*, Schiff, K.*, Schiff, D.*, Messina, J.P.*</em></p>
+            <p class="preprint-status"><strong><em>Under Review. *Equal Contributors.</em></strong></p>
+            
+            <p class="preprint-abstract">Research on political deepfakes disproportionately focuses on malicious applications -- disinformation designed to damage reputations or deceive voters. This focus on deception, while important, creates a blind spot: most political deepfakes do not fit the paradigmatic case of scandal-invoking content. Without a systematic framework for understanding deepfake functions, scholars cannot assess risks, policymakers cannot develop targeted responses, and we lack insight into how synthetic media reshapes political communication. We offer a typology organized around five dimensions: Content, Design, Intentionality, Disclosure, and Dissemination (CoDIDD). We also introduce a classification scheme: "darkfakes" (realistic/negative), "glowfakes" (realistic/positive), "fanfakes" (unrealistic/positive), and "foefakes" (unrealistic/negative). We ground our typology in data from the Political Deepfakes Incidents Database and apply it to deepfakes from the 2024 US presidential election, revealing patterns obscured by existing approaches. By establishing categories for measurement and comparison, our typology facilitates interdisciplinary dialogue and provides a foundation for evidence-based governance.</p>
+            
+        </div>
+        
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Morgan Wack. Built with Python & Jinja2.</p>
+        </div>
+    </footer>
+
+    <script src="static/js/main.js"></script>
+    <!-- GoatCounter analytics (privacy-friendly, no cookies) -->
+    <script data-goatcounter="https://morganwack.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
